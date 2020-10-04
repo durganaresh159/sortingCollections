@@ -15,6 +15,10 @@ public class StockItem implements Comparable<StockItem> {
     private double price;
     private int quantityInStock = 0;
     private int reserved = 0;
+    
+    public void addMyMethod() {
+    	
+    }
 
     public StockItem(String name, double price) {
         this.name = name;
